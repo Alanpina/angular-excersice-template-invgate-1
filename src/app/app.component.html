@@ -1,0 +1,6 @@
+This is the main component
+<list [template]="template"></list>
+
+<ng-template #template let-item="item">
+  <p>ID: {{ item.id }}, Name: {{ item.name }}</p>
+</ng-template>
